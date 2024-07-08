@@ -4,10 +4,10 @@ import { TailSpin } from "react-loader-spinner";
 import { AiOutlineAlignRight } from "react-icons/ai";
 import { MdOutlineSmsFailed } from "react-icons/md";
 
-import TransactionsStatistics from "../TransactionStatistics";
+import TransactionsStatistics from "../TransactionStatistics.index";
 
 import "./index.css";
-import { StatsChart } from "../StatsChart";
+import { StatsChart } from "../StatsChart.index";
 import CategoryChart from "../CategoryChart";
 
 const monthsData = [
